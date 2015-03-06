@@ -11,8 +11,9 @@ define({
     'async'         : 'vendor/requirejs-plugins/src/async',
     'jquery'        : 'vendor/jquery/dist/jquery',
     'ngResource'    : 'vendor/angular-resource/angular-resource',
-    'ui.router'     : 'vendor/angular-ui-router/release/angular-ui-router'
-  },
+    'ui.router'     : 'vendor/angular-ui-router/release/angular-ui-router',
+    'd3'            : './vendor/d3/d3'
+},
 
   shim: {
     'angular': {
